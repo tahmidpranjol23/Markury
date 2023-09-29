@@ -1,0 +1,239 @@
+/* root css start */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Roboto', sans-serif;
+}
+ul , a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --roboto: 'Roboto';
+}
+
+/* root css end */
+
+header {
+  background: url(../img/home.png) no-repeat center fixed;
+  background-size: cover;
+}
+/* navbar */
+.nav-link{
+  color: white;
+  font-family: var(--roboto);
+  font-size: 18px;
+}
+.navbar-nav li, a{
+  padding-right: 25px;
+}
+.nav-link:hover{
+  color: white;
+}
+.btn-outline{
+  width: 100px;
+  height: 50px;
+  border: 1px solid #233a72;
+  color: #5584ff;
+  font: var(--roboto) 15px 400;  
+  border-radius: 56px;
+}
+.btn-outline:hover{
+  background-color: #5584ff;
+  color: white;
+}
+/* navbar end */
+/* home */
+.head_con{
+  padding-top: 140px;
+}
+.head_con_main h2{
+  font-family: var(--roboto);
+  font-weight: 100;
+  font-size: 60px;
+}
+.head_con_main p{
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 35px;
+  color: #8492af;
+}
+.btn-outline-home{
+  background: transparent;
+  width: 205px;
+  height: 55px;
+  border-radius: 56px;
+  border: 1px solid #5584ff;
+  color: white;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 65px 0 0 0;
+}
+.btn-outline-home:hover{
+  background-color: #5584ff;
+}
+/* home end */
+/* feature */
+.hero-img-2{
+  margin-left: 117px;
+}
+.features_main{
+  padding-top: 130px;
+}
+.features_main h4{
+  font-family: var(--roboto);
+  font-weight: bold;
+  font-size: 24px;
+  color: #0e1a35;
+}
+.features_main p{
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 18px;
+  color: #8492af;
+}
+.btn-feature:hover{
+  color: #000000;
+}
+.btn-feature{
+  border: 1px solid rgb(132, 146, 175);
+  border-radius: 56px;
+  opacity: 0.3;
+  width: 254px;
+  height: 52px;
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: bold;
+}
+/* feature end */
+/* browser */
+.browser_1 h1{
+  font-family: var(--roboto);
+  font-weight: 100;
+  font-size: 50px;
+  padding-top: 215px;
+  color: #0e1a35;
+}
+.browser_1 p{
+  font-family: var(--roboto);
+  font-weight: 400;
+  font-size: 15px;
+  color: #8492af;
+}
+.browser_1 .frc{
+  font-size: 17px;
+  font-family: var(--roboto);
+  font-weight: 400;
+  color: #5584ff;
+
+}
+.browser_2{
+  padding: 220px 0 50px;
+}
+/* frowser end */
+/* workflow */
+#workflow{
+  background: url(../img/home.png) no-repeat center fixed;
+  background-size: cover;
+  padding: 95px 0 50px;
+}
+.w_2 p{
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  color: #8492af;
+}
+.w_2 h2, .pricing h3{
+  font-family: var(--roboto);
+  font-size: 60px;
+  font-weight: 100;
+  color: #ffffff;
+}
+/* workflow end */
+/* psd tamplet */
+.tamplate_main .th{
+  font-family: var(--roboto);
+  font-size: 55px;
+  font-weight: 100;
+  color: #0e1a35;
+}
+.tamplate_main .tp{
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  color: #8492af;
+  line-height: 30px;
+}
+/* psd templed end */
+/* pricing */
+.pricing h3{
+  color: #0e1a35 !important; 
+}
+.price_table{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.price_table h5{
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e1a35;
+}
+.price_table p b{
+  font-size: 70px;
+  font-weight: bold;
+  color: #0e1a35;
+}
+.price_table p strong{
+  font-size: 35px;
+  font-weight: bold;
+  color: #0e1a35;
+}
+.price_table p{
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  color: #8492af;
+}
+/* price end */
+/* price confirm */
+.confirm p{
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  color: #8492af;
+  line-height: 30px;
+}
+.join{
+  margin-top: 30px !important;
+  color: #000000;
+}
+.join:hover{
+  color: white;
+}
+/* price confirm end */
+/* footer */
+.footer{
+  background-color: #0e1a35;
+}
+.footer_main p, a{
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  color: #8492af;
+}
+/* foofer end */
